@@ -1,0 +1,210 @@
+body{
+background-color: #EBF4F3;
+margin: 0;
+
+}
+
+.navbar {
+  background-color: #024A3F;
+  padding: 15px 40px;
+  font-family: "consolas", sans-serif;
+
+  display: flex;
+  align-items: center;
+
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar h1 {
+  color: aliceblue;
+  margin: 0;
+  font-size: 22px;
+}
+
+.nav-links {
+  margin-left: auto;
+}
+
+.nav-links a {
+  color: aliceblue;
+  text-decoration: none;
+  margin-left: 25px;
+  font-size: 18px;
+
+     transition: transform 0.2s ease;
+  display: inline-block;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #024A3F;
+  min-width: 180px;
+  top: 100%;
+  left: 0;
+  z-index: 999;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 15px 30px;
+  margin: 0;
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 600;
+
+     transition: transform 0.2s ease;
+  display: inline-block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.nav-links a:hover,
+.dropdown-content a:hover {
+  transform: scale(1.08);
+}
+
+
+#banner .back {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+#banner {
+  position: relative;
+}
+
+.list-section {
+  display: flex;
+  align-items: flex-start; 
+  gap: 30px;              
+  margin: 30px;            
+}
+
+.list-img {
+  width: 470px;   
+  height: auto;    
+  flex-shrink: 0;  
+}
+
+
+.list-section p {
+  flex: 1;         
+}
+
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+p{
+  color: #024A3F;
+    font-size: 23px;
+    word-spacing: 10px;
+    line-height: 40px;
+    font-family: Montserrat;
+    font-weight: 510;
+    margin-top: 45px;
+    margin-bottom: 12px;
+    text-align: justify;
+    
+}
+
+
+.typhoons {
+  font-weight: 700;
+  color: #2C80B9;
+}
+
+.earthquakes {
+  font-weight: 700;
+  color: #DB9359;
+}
+
+.volcanics{
+  font-weight: 700;
+  color: #D84650;
+}
+
+.nds{
+ font-weight: 700;
+  color: #1a8d50;
+
+}
+
+
+.lis{
+ font-weight: 700;
+  color: #1a8d50;
+
+}
+
+
+#ty_drop{
+
+color: #65ADD3;
+ font-weight: 700;
+
+}
+
+#eq_drop{
+
+color: #E8BF6D;
+font-weight: 700;
+
+}
+
+
+#ve_drop{
+
+color: #D66167;
+font-weight: 720;
+
+}
+
+
+@media (max-width: 768px) {
+  .list-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .list-img {
+    width: 90%;
+  }
+
+  .list-section p {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  .navbar {
+    padding: 10px 15px;
+  }
+
+  .navbar h1 {
+    font-size: 14px;
+  }
+
+  .nav-links a {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+
+}
