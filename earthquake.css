@@ -122,6 +122,19 @@ font-weight: 720;
   flex: 1;         
 }
 
+p{
+
+    color: #024A3F;
+    font-family: "consolas", sans-serif;
+    font-size: 20px;
+    word-spacing: 10px;
+    line-height: 35px;
+    font-family: Montserrat;
+    font-weight: 530;
+    margin: 10px;
+    text-align: justify;
+}
+
 
 @media (max-width: 768px) {
 
@@ -137,6 +150,7 @@ font-weight: 720;
     font-size: 12px;
     margin-left: 10px;
   }
+
 }
 
 @media (max-width: 768px) {
