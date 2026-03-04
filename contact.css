@@ -163,7 +163,10 @@ font-weight: 720;
     margin-left: 10px;
   }
 
+}
+
 .num_mail {
   word-break: break-word;
   overflow-wrap: break-word;
 }
+
